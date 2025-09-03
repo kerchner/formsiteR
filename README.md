@@ -1,6 +1,6 @@
 # `formsiteR`: An R client for the Formsite API
  
-Provides functions to interact with Formsite forms, including listing forms, retrieving form items, downloading results, and managing webhooks.
+Provides functions to interact with Formsite forms via the [Formsite API](https://support.formsite.com/hc/en-us/articles/360000288594-API), including listing forms, retrieving form items, downloading results, and managing webhooks.
 
 **Still needs a lot of work!!**
 ---
