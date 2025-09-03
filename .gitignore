@@ -1,0 +1,23 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Logs
+*.log
+
+# Temporary files
+.Ruserdata
+
+# Compiled packages
+*.tar.gz
+*.Rcheck/
+
+# renv library
+renv/library/
+
+# renv cache (optional, large, can be rebuilt)
+renv/cache/
+
+# renv staging folders
+renv/staging/

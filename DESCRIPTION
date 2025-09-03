@@ -1,0 +1,20 @@
+Package: formsiteR
+Type: Package
+Title: R Client for the Formsite API
+Version: 0.1.0
+Authors@R: 
+    person(given = "Daniel",
+           family = "Kerchner",
+           email = "kerchner@gwu.edu",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5921-2193"))
+Description: Provides functions for interacting with the Formsite REST API
+    including listing forms, retrieving form items, downloading results, 
+    and managing webhooks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    jsonlite
+RoxygenNote: 7.3.2
