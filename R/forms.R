@@ -13,7 +13,7 @@ list_forms <- function() {
 #' @return A list with form details
 #' @export
 get_form <- function() {
-  fs_get(paste0("/forms/", fs_formdir))
+  fs_get(paste0("/forms/", fs_formdir()))
 }
 
 #' Get Form Items
@@ -22,5 +22,5 @@ get_form <- function() {
 #' @return A data frame of items
 #' @export
 get_form_items <- function() {
-  fs_get(paste0("/forms/", fs_formdir, "/items"))
+  fs_get(paste0("/forms/", fs_formdir(), "/items"))
 }
